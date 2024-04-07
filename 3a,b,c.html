@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partie 3 Images</title>
+    <style>
+        .cat-picture{
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            flex-wrap: wrap;
+           }
+        .cat-picture .image-1{
+            margin-left: 30px;
+            margin-right: 10px;
+            border: solid 25px;
+            background-color: black;
+            margin-top: 30px;
+          
+        }
+        .cat-picture .image-1 img{
+            border-radius: 15px;
+        }
+        .cat-picture .image-2{
+            margin-left: 30px;
+            border: solid 3px;
+            background-color: black;
+            margin-top: 30px;
+        }
+        .cat-picture .image-2 img{
+            height: 233px;
+            object-fit: cover;
+            object-position: center;
+        }
+        
+        .cat-picture .image-3{
+            margin-left: 30px;
+            border: solid 25px;
+            background-color: black;
+            margin-top: 30px;
+        }
+        .cat-picture .image-3 img{
+               clip-path: circle();
+        }
+        
+    </style>
+</head>
+<body>
+
+<div class="cat-picture">
+    <div class="image-1">
+            <img src="cat.jpg" alt="cat">
+    </div>
+        <div class="image-2">
+            <img src="cat.jpg" alt="cat">
+         </div>
+    <div class="image-3">
+            <img src="cat.jpg" alt="cat">
+    </div>
+</div>
+    
+</body>
+</html>
